@@ -3,5 +3,8 @@ import sys
 
 afile = sys.argv[1]
 xmltree = etree.parse(afile)
-for item in xmltree.iter('metadata'):
-	print(item)
+root = xmltree.getroot()
+listRecords = root.getchildren()[2]
+records = listRecords.getchildren()
+for record in records:
+	print('i have record')
