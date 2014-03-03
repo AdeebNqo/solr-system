@@ -19,8 +19,8 @@ def cleanrecord(record):
 			cleanrecord(item)
 def indexrecords(docs):
 	print('indexing docs...')
-	print(docs)
-	#solr.add(docs)
+	#print(docs)
+	solr.add(docs)
 afile = sys.argv[1]
 xmltree = etree.parse(afile)
 root = xmltree.getroot()
@@ -35,5 +35,4 @@ for record in records:
 		doc[item.tag.split('}')[1]] = item.text
 	actualrecords.append(doc)
 	record_cache = [] #clearing record cache
-	break
 indexrecords(actualrecords)
