@@ -1,6 +1,7 @@
 from lxml import etree
 import sys
 import re #regular expressions
+import pysolr
 #
 # Method for removing nests in xml
 #
