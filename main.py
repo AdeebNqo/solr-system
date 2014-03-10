@@ -1,11 +1,11 @@
-from lxml import etree
+import lxml
 import sys
 import re #regular expressions
 import pysolr
-#
-# Method for removing nests in xml
-#
 
+class record(filaname):
+	def __init__(self):
+		
 #solr object
 solr = pysolr.Solr('http://localhost:8983/solr/')
 
@@ -19,10 +19,9 @@ def cleanrecord(record):
 			cleanrecord(item)
 def indexrecords(docs):
 	print('indexing docs...')
-	#print(docs)
 	solr.add(docs)
 afile = sys.argv[1]
-xmltree = etree.parse(afile)
+xmltree = lxml.etree.parse(afile)
 root = xmltree.getroot()
 listRecords = root.getchildren()[2]
 records = listRecords.getchildren()
@@ -35,6 +34,4 @@ for record in records:
 		doc[item.tag.split('}')[1]] = item.text
 	actualrecords.append(doc)
 	record_cache = [] #clearing record cache
-	print(doc)
-	break
-#indexrecords(actualrecords)
+indexrecords(actualrecords)
