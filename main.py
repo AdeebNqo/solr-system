@@ -6,6 +6,7 @@ import os
 
 
 def getcompatible(record):
+	bit = 1
 	recordfields = record.getchildren()
 	doc = {}
 	for field in recordfields:
@@ -15,7 +16,11 @@ def getcompatible(record):
 				if (metafield.tag.endswith('dc')):
 					dcfields = metafield.getchildren()
 					for dcfield in dcfields:
-						doc['{}'.format(dcfield.tag.split('}')[1].encode('utf-8'))] = dcfield.text.encode('utf-8')
+						if (dcfield.tag.split('}')[1].encode('utf-8')=='identifier' and bit==1):
+							bit = 0
+							doc['id'] = dcfield.text.encode('utf-8')
+						else:
+							doc['{}'.format(dcfield.tag.split('}')[1].encode('utf-8'))] = dcfield.text.encode('utf-8')
 	return doc
 #
 #solr stuff
