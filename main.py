@@ -35,4 +35,6 @@ for record in records:
 		doc[item.tag.split('}')[1]] = item.text
 	actualrecords.append(doc)
 	record_cache = [] #clearing record cache
-indexrecords(actualrecords)
+	print(doc)
+	break
+#indexrecords(actualrecords)
