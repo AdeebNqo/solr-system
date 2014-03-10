@@ -14,7 +14,7 @@ def getcompatible(record):
 				if (metafield.tag.endswith('dc')):
 					dcfields = metafield.getchildren()
 					for dcfield in dcfields:
-						print(dcfield.tag)
+						print('\'{0}\':\'{1}\''.format(dcfield.tag.split('}')[1],dcfield.text))
 	return ''
 #
 #solr stuff
