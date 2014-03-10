@@ -2,36 +2,35 @@ import lxml
 import sys
 import re #regular expressions
 import pysolr
+import os
 
-class record(filaname):
-	def __init__(self):
-		
-#solr object
+class recordtree():
+	root = None
+	def __init__(self, filename):
+		xml = open(filename).read()
+	def getdublincore(self):
+		return ''
+#
+#solr stuff
+#
 solr = pysolr.Solr('http://localhost:8983/solr/')
-
-record_cache = []
-def cleanrecord(record):
-	children = record.getchildren()
-	for item in children:
-		if (len(item.getchildren())==0):
-			record_cache.append(item)
-		else:
-			cleanrecord(item)
 def indexrecords(docs):
-	print('indexing docs...')
 	solr.add(docs)
-afile = sys.argv[1]
-xmltree = lxml.etree.parse(afile)
-root = xmltree.getroot()
-listRecords = root.getchildren()[2]
-records = listRecords.getchildren()
 
-actualrecords = []
-for record in records:
-	cleanrecord(record)
-	doc = {}
-	for item in record_cache:
-		doc[item.tag.split('}')[1]] = item.text
-	actualrecords.append(doc)
-	record_cache = [] #clearing record cache
-indexrecords(actualrecords)
+#
+# Method for getting all records from one file
+#
+def getrecords(afile):
+	xmltree = lxml.etree.parse(afile)
+	root = xmltree.getroot()
+	listRecords = root.getchildren()[2]
+	records = listRecords.getchildren()
+
+#getting records in from a single file
+directory = sys.argv[1]
+files = os.listdir(directory)
+for File in files:
+	records = getrecords(File)
+	for record in records:
+		rt = recordtree(record)
+		rt.
