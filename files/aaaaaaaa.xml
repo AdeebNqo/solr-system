@@ -12008,4 +12008,5 @@
 <provenance xmlns="http://www.openarchives.org/OAI/2.0/provenance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/provenance http://www.openarchives.org/OAI/2.0/provenance.xsd"><originDescription harvestDate="2011-08-11T04:15:09Z" altered="false"><baseURL>http://alcme.oclc.org/ndltd/servlet/OAIHandler</baseURL><identifier>173331</identifier><datestamp>2010-10-12</datestamp><metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace><originDescription harvestDate="2010-10-10T06:15:53Z" altered="false"><baseURL>http://metasuite.nun.unsw.edu.au:9004/CMD/OAI</baseURL><identifier>173331</identifier><datestamp>2008-05-20T02:42:42Z</datestamp><metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace></originDescription></originDescription></provenance>
 </about></record>
 <resumptionToken completeListSize="3889545" cursor="0">2011-09-07T02:15:34Z!2037-01-01T00:00:00Z!!oai_dc!1000!3889545!oai:union.ndltd.org:ADTP/173331</resumptionToken> </ListRecords>
-</OAI-PMH>
+</OAI-PMH>
+
