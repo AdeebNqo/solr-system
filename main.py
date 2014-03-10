@@ -7,7 +7,7 @@ import os
 
 def getcompatible(record):
 	recordfields = record.getchildren()
-	doc = '{'
+	doc = {}
 	for field in recordfields:
 		if (field.tag.endswith('metadata')):
 			metafields = field.getchildren()
@@ -15,8 +15,7 @@ def getcompatible(record):
 				if (metafield.tag.endswith('dc')):
 					dcfields = metafield.getchildren()
 					for dcfield in dcfields:
-						doc=doc+('\'{0}\':\'{1}\''.format(dcfield.tag.split('}')[1],dcfield.text))+'\n'
-					doc=doc+'}'
+						doc['{}'.format(dcfield.tag.split('}')[1].encode('utf-8'))] = dcfield.text.encode('utf-8')
 	return doc
 #
 #solr stuff
@@ -46,4 +45,5 @@ for File in files:
 			record = getcompatible(record)
 			finalrecords.append(record)
 	if (len(finalrecords)!=0):
+		#print(finalrecords)
 		indexrecords(finalrecords)
