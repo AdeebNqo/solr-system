@@ -4,7 +4,7 @@
 		<field name="id" type="string"/>
 		<field name="description" type="string"/>
 		<field name="language" type="string"/>
-		<field name="creator"type="string" />
+		<field name="creator" type="string" />
 		<field name="title" type="string"/>
 		<field name="relation" type="string"/>
 		<field name="date" type="string"/>

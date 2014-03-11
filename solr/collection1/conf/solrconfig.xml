@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+
+	<luceneMatchVersion>4.7</luceneMatchVersion>
+	    <filterCache
+     class="solr.FastLRUCache"
+     size="512"
+     initialSize="512"
+     autowarmCount="0"/>
+
+    <!-- Cache used to hold field values that are quickly accessible
+        by document id.  The fieldValueCache is created by default
+        even if not configured here.
+     <fieldValueCache
+       class="solr.FastLRUCache"
+       size="512"
+       autowarmCount="128"
+       showItems="32"
+     />
+   -->
+
+   <!-- queryResultCache caches results of searches - ordered lists of
+        document ids (DocList) based on a query, a sort, and the range
+        of documents requested.  -->
+    <queryResultCache
+     class="solr.LRUCache"
+     size="512"
+     initialSize="512"
+     autowarmCount="0"/>
+
+  <!-- documentCache caches Lucene Document objects (the stored fields for each document).
+      Since Lucene internal document ids are transient, this cache will not be autowarmed.  -->
+    <documentCache
+     class="solr.LRUCache"
+     size="512"
+     initialSize="512"
+     autowarmCount="0"/>
+
+
+	<requestHandler name="standard" class="solr.SearchHandler" default="true">
+   <lst name="defaults">
+     <str name="echoParams">explicit</str>
+     <!--
+    <int name="rows">10</int>
+    <str name="fl">*</str>
+    <str name="version">2.1</str>
+     -->
+   </lst>
+</requestHandler>
+
+	<arr name="components">
+  <str>query</str>
+  <str>facet</str>
+  <str>mlt</str>
+  <str>highlight</str>
+  <str>stats</str>
+  <str>debug</str>
+</arr>
+
+<searchComponent name="query"     class="org.apache.solr.handler.component.QueryComponent" />
+<searchComponent name="facet"     class="org.apache.solr.handler.component.FacetComponent" />
+<searchComponent name="mlt"       class="org.apache.solr.handler.component.MoreLikeThisComponent" />
+<searchComponent name="highlight" class="org.apache.solr.handler.component.HighlightComponent" />
+<searchComponent name="stats"     class="org.apache.solr.handler.component.StatsComponent" />
+<searchComponent name="debug"     class="org.apache.solr.handler.component.DebugComponent" />
+</config>
