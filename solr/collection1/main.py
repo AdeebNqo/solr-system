@@ -1,13 +1,12 @@
-import lxml
 import sys
-import re #regular expressions
-import pysolr
 import os
+import xml.etree.ElementTree as ET
+from tempfile import NamedTemporaryFile
 
 def getcompatible(record):
 	bit = 1
 	recordfields = record.getchildren()
-	doc = {}
+	doc = '<doc>'
 	for field in recordfields:
 		if (field.tag.endswith('metadata')):
 			metafields = field.getchildren()
@@ -17,23 +16,16 @@ def getcompatible(record):
 					for dcfield in dcfields:
 						if (dcfield.tag.split('}')[1].encode('utf-8')=='identifier' and bit==1):
 							bit = 0
-							doc['id'] = dcfield.text.encode('utf-8')
+							doc=doc+'\n<field name="id">{}</field>'.format(dcfield.text.encode('utf-8'))
 						else:
-							doc['{}'.format(dcfield.tag.split('}')[1].encode('utf-8'))] = dcfield.text.encode('utf-8')
+							doc=doc+'\n<field name="{0}">{1}</field>'.format(dcfield.tag.split('}')[1].encode('utf-8'), dcfield.text.encode('utf-8'))
+	doc = doc+'\n</doc>'
 	return doc
-#
-#solr stuff
-#
-solr = pysolr.Solr('http://localhost:8983/solr/')
-def indexrecords(docs):
-	#solr.search('hello')
-	solr.add(docs)
-
 #
 # Method for getting all records from one file
 #
 def getrecords(afile,directory):
-	xmltree = lxml.etree.parse(directory+'/'+afile)
+	xmltree = ET.parse(directory+'/'+afile)
 	root = xmltree.getroot()
 	listRecords = root.getchildren()[2]
 	records = listRecords.getchildren()
@@ -49,8 +41,10 @@ for File in files:
 	if (records!=None):
 		for record in records:
 			record = getcompatible(record)
-			finalrecords.append(record)
-			break
-	if (len(finalrecords)!=0):		
-		print(finalrecords)
-		indexrecords(finalrecords)
+			File = NamedTemporaryFile()
+			filename = File.name
+			filename = filename.replace('/tmp/','')
+			f = open('metadata/{}'.format(filename),'w')
+			f.write(record)
+			f.close()
+
