@@ -47,3 +47,1338 @@ INFO  - 2014-03-11 09:54:21.060; org.eclipse.jetty.server.Server; Graceful shutd
 INFO  - 2014-03-11 09:54:21.061; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
 INFO  - 2014-03-11 09:54:22.066; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1213818572
 INFO  - 2014-03-11 09:54:22.071; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 09:59:19.770; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 09:59:19.786; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 09:59:19.791; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 09:59:20.693; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 09:59:20.733; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 09:59:20.743; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 09:59:20.744; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 09:59:20.744; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 09:59:20.818; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 09:59:20.880; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /home/zmahlaza/Documents/uct/ir/solr-system/solr
+INFO  - 2014-03-11 09:59:20.886; org.apache.solr.core.CoreContainer; New CoreContainer 501705927
+INFO  - 2014-03-11 09:59:20.886; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 09:59:20.896; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 09:59:20.896; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 09:59:20.899; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 09:59:20.899; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 09:59:20.900; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 09:59:20.900; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 09:59:20.901; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 09:59:20.901; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 09:59:20.901; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 09:59:20.973; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 09:59:20.974; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 09:59:20.978; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-11 09:59:21.006; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/zmahlaza/Documents/uct/ir/solr-system/solr
+INFO  - 2014-03-11 09:59:21.118; org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions
+INFO  - 2014-03-11 09:59:21.119; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 09:59:21.119; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 09:59:21.137; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 09:59:26.850; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394524766825} status=0 QTime=15 
+INFO  - 2014-03-11 09:59:26.888; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394524766873} status=0 QTime=11 
+INFO  - 2014-03-11 09:59:30.608; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524770601} status=0 QTime=1 
+INFO  - 2014-03-11 09:59:40.638; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524780636} status=0 QTime=0 
+INFO  - 2014-03-11 09:59:50.709; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524790706} status=0 QTime=0 
+INFO  - 2014-03-11 10:00:00.739; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524800737} status=0 QTime=0 
+INFO  - 2014-03-11 10:00:06.852; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394524806846} status=0 QTime=0 
+INFO  - 2014-03-11 10:00:06.882; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394524806871} status=0 QTime=5 
+INFO  - 2014-03-11 10:00:08.863; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524808853} status=0 QTime=0 
+INFO  - 2014-03-11 10:00:18.872; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524818870} status=0 QTime=0 
+INFO  - 2014-03-11 10:00:28.924; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524828890} status=0 QTime=0 
+INFO  - 2014-03-11 10:00:38.946; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524838943} status=0 QTime=0 
+INFO  - 2014-03-11 10:00:49.145; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524849143} status=0 QTime=0 
+INFO  - 2014-03-11 10:00:59.177; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524859165} status=0 QTime=0 
+INFO  - 2014-03-11 10:01:09.191; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524869188} status=0 QTime=0 
+INFO  - 2014-03-11 10:01:19.200; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524879198} status=0 QTime=0 
+INFO  - 2014-03-11 10:01:29.242; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524889239} status=0 QTime=0 
+INFO  - 2014-03-11 10:01:39.252; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524899249} status=0 QTime=1 
+INFO  - 2014-03-11 10:01:49.309; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524909306} status=0 QTime=0 
+INFO  - 2014-03-11 10:01:59.688; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524919685} status=0 QTime=0 
+INFO  - 2014-03-11 10:02:09.704; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524929701} status=0 QTime=1 
+INFO  - 2014-03-11 10:02:20.028; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394524940020} status=0 QTime=1 
+INFO  - 2014-03-11 10:02:20.051; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394524940040} status=0 QTime=7 
+INFO  - 2014-03-11 10:02:27.692; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1394524947691} status=0 QTime=0 
+INFO  - 2014-03-11 10:03:13.311; org.apache.solr.core.CoreContainer; Creating SolrCore 'dc_docs' using instanceDir: solr/dc_docs
+INFO  - 2014-03-11 10:03:13.312; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/dc_docs/'
+ERROR - 2014-03-11 10:03:13.350; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/dc_docs/solrconfig.xml
+ERROR - 2014-03-11 10:03:13.353; org.apache.solr.core.CoreContainer; Unable to create core: dc_docs
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/dc_docs/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:509)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:152)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:732)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:268)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/dc_docs/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 32 more
+ERROR - 2014-03-11 10:03:13.357; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'dc_docs': Unable to create core: dc_docs Caused by: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/dc_docs/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:546)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:152)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:732)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:268)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Unable to create core: dc_docs
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:509)
+	... 30 more
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/dc_docs/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 31 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/dc_docs/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 32 more
+
+INFO  - 2014-03-11 10:03:13.358; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=dc_docs&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=dc_docs&config=solrconfig.xml&_=1394524993218} status=400 QTime=137 
+INFO  - 2014-03-11 10:03:32.566; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394525012557} status=0 QTime=2 
+INFO  - 2014-03-11 10:03:42.582; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1394524993357&_=1394525022576} status=0 QTime=0 
+INFO  - 2014-03-11 10:03:49.507; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394525029495} status=0 QTime=0 
+INFO  - 2014-03-11 10:03:59.541; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1394524993357&_=1394525039538} status=0 QTime=0 
+INFO  - 2014-03-11 10:04:09.559; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1394524993357&_=1394525049557} status=0 QTime=0 
+INFO  - 2014-03-11 10:04:19.567; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1394524993357&_=1394525059563} status=0 QTime=0 
+INFO  - 2014-03-11 10:04:30.088; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1394524993357&_=1394525069577} status=0 QTime=0 
+INFO  - 2014-03-11 10:04:40.098; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1394524993357&_=1394525080094} status=0 QTime=0 
+INFO  - 2014-03-11 10:04:49.941; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394525089931} status=0 QTime=0 
+INFO  - 2014-03-11 10:04:49.992; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394525089955} status=0 QTime=32 
+INFO  - 2014-03-11 10:04:50.184; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1394524993357&_=1394525090144} status=0 QTime=0 
+INFO  - 2014-03-11 10:04:57.180; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394525097172} status=0 QTime=1 
+INFO  - 2014-03-11 10:05:05.341; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 10:05:05.342; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 10:05:06.345; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=501705927
+INFO  - 2014-03-11 10:05:06.568; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 10:29:27.027; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 10:29:27.042; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 10:29:27.048; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 10:29:27.941; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 10:29:27.983; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 10:29:27.996; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 10:29:27.997; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 10:29:27.998; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 10:29:28.075; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 10:29:28.140; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /home/zmahlaza/Documents/uct/ir/solr-system/solr
+INFO  - 2014-03-11 10:29:28.145; org.apache.solr.core.CoreContainer; New CoreContainer 501705927
+INFO  - 2014-03-11 10:29:28.146; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 10:29:28.155; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 10:29:28.155; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 10:29:28.158; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 10:29:28.158; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 10:29:28.160; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 10:29:28.160; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 10:29:28.160; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 10:29:28.160; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 10:29:28.160; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 10:29:28.236; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 10:29:28.237; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 10:29:28.238; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-11 10:29:28.273; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/zmahlaza/Documents/uct/ir/solr-system/solr
+INFO  - 2014-03-11 10:29:28.386; org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions
+INFO  - 2014-03-11 10:29:28.387; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 10:29:28.387; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 10:29:28.404; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 10:29:32.073; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394526572042} status=0 QTime=17 
+INFO  - 2014-03-11 10:29:32.127; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394526572093} status=0 QTime=29 
+INFO  - 2014-03-11 10:29:50.499; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394526590491} status=0 QTime=1 
+INFO  - 2014-03-11 10:30:00.506; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394526600503} status=0 QTime=0 
+INFO  - 2014-03-11 10:30:10.531; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394526610529} status=0 QTime=0 
+INFO  - 2014-03-11 10:30:20.543; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394526620540} status=0 QTime=1 
+INFO  - 2014-03-11 10:30:30.551; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394526630548} status=0 QTime=0 
+INFO  - 2014-03-11 10:30:40.562; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394526640560} status=0 QTime=0 
+INFO  - 2014-03-11 10:30:50.573; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394526650570} status=0 QTime=0 
+INFO  - 2014-03-11 10:30:57.809; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1394526657807} status=0 QTime=0 
+INFO  - 2014-03-11 10:31:00.861; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/properties params={wt=json&_=1394526660856} status=0 QTime=1 
+INFO  - 2014-03-11 10:31:02.852; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/threads params={wt=json&_=1394526662804} status=0 QTime=47 
+INFO  - 2014-03-11 10:31:04.687; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1394526664682} status=0 QTime=0 
+INFO  - 2014-03-11 10:31:13.909; org.apache.solr.core.CoreContainer; Creating SolrCore 'new_core' using instanceDir: solr/new_core
+INFO  - 2014-03-11 10:31:13.909; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/new_core/'
+ERROR - 2014-03-11 10:31:13.921; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/solrconfig.xml
+ERROR - 2014-03-11 10:31:13.923; org.apache.solr.core.CoreContainer; Unable to create core: new_core
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:509)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:152)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:732)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:268)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 32 more
+ERROR - 2014-03-11 10:31:13.926; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'new_core': Unable to create core: new_core Caused by: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:546)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:152)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:732)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:268)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Unable to create core: new_core
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:509)
+	... 30 more
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 31 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 32 more
+
+INFO  - 2014-03-11 10:31:13.926; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=new_core&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=new_core&config=solrconfig.xml&_=1394526673876} status=400 QTime=47 
+INFO  - 2014-03-11 10:32:25.845; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 10:32:25.847; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 10:32:26.848; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=501705927
+INFO  - 2014-03-11 10:32:26.857; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 10:32:30.967; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 10:32:30.983; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 10:32:30.989; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 10:32:31.870; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 10:32:31.910; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 10:32:31.919; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 10:32:31.919; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 10:32:31.920; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 10:32:31.989; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 10:32:32.046; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /home/zmahlaza/Documents/uct/ir/solr-system/solr
+INFO  - 2014-03-11 10:32:32.052; org.apache.solr.core.CoreContainer; New CoreContainer 501705927
+INFO  - 2014-03-11 10:32:32.052; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 10:32:32.061; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 10:32:32.062; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 10:32:32.065; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 10:32:32.065; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 10:32:32.067; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 10:32:32.067; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 10:32:32.067; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 10:32:32.067; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 10:32:32.067; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 10:32:32.141; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 10:32:32.142; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 10:32:32.142; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-11 10:32:32.174; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/zmahlaza/Documents/uct/ir/solr-system/solr
+INFO  - 2014-03-11 10:32:32.187; org.apache.solr.core.CorePropertiesLocator; Found core new_core in /home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/
+INFO  - 2014-03-11 10:32:32.282; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2014-03-11 10:32:32.284; org.apache.solr.core.CoreContainer; Creating SolrCore 'new_core' using instanceDir: /home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core
+INFO  - 2014-03-11 10:32:32.285; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/'
+ERROR - 2014-03-11 10:32:32.296; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/solrconfig.xml
+ERROR - 2014-03-11 10:32:32.297; org.apache.solr.core.CoreContainer; Unable to create core: new_core
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+ERROR - 2014-03-11 10:32:32.299; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: new_core
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 8 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/new_core/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+
+INFO  - 2014-03-11 10:32:32.300; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 10:32:32.301; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 10:32:32.319; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 10:32:56.129; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394526776105} status=0 QTime=14 
+INFO  - 2014-03-11 10:32:56.175; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394526776156} status=0 QTime=15 
+INFO  - 2014-03-11 10:32:56.207; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1394526776194} status=0 QTime=0 
+INFO  - 2014-03-11 10:33:29.300; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 10:33:29.302; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 10:33:30.305; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=501705927
+INFO  - 2014-03-11 10:33:30.313; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 12:56:22.605; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 12:56:22.620; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 12:56:22.626; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 12:56:23.583; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 12:56:23.620; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 12:56:23.632; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 12:56:23.632; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 12:56:23.633; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 12:56:23.698; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 12:56:23.760; org.apache.solr.core.CoreContainer; New CoreContainer 2087785333
+INFO  - 2014-03-11 12:56:23.760; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 12:56:23.761; org.apache.solr.core.CoreContainer; loading shared library: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib
+WARN  - 2014-03-11 12:56:23.761; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib).
+INFO  - 2014-03-11 12:56:23.771; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 12:56:23.771; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 12:56:23.774; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 12:56:23.775; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 12:56:23.776; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 12:56:23.776; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 12:56:23.776; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 12:56:23.776; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 12:56:23.776; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 12:56:23.855; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 12:56:23.855; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 12:56:23.856; org.apache.solr.core.CoreContainer; Host Name: null
+INFO  - 2014-03-11 12:56:23.897; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: solr/core0
+INFO  - 2014-03-11 12:56:23.897; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/core0/'
+INFO  - 2014-03-11 12:56:23.897; org.apache.solr.core.CoreContainer; Creating SolrCore 'core1' using instanceDir: solr/core1
+INFO  - 2014-03-11 12:56:23.898; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/core1/'
+ERROR - 2014-03-11 12:56:23.904; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+ERROR - 2014-03-11 12:56:23.904; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core1/solrconfig.xml
+ERROR - 2014-03-11 12:56:23.905; org.apache.solr.core.CoreContainer; Unable to create core: core0
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+ERROR - 2014-03-11 12:56:23.907; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: core0
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 8 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+
+ERROR - 2014-03-11 12:56:23.905; org.apache.solr.core.CoreContainer; Unable to create core: core1
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+ERROR - 2014-03-11 12:56:23.909; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: core1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 8 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+
+INFO  - 2014-03-11 12:56:23.911; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 12:56:23.911; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 12:56:23.928; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 12:56:33.215; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394535393175} status=0 QTime=19 
+INFO  - 2014-03-11 12:56:33.395; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394535393238} status=0 QTime=142 
+INFO  - 2014-03-11 12:56:49.065; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 12:56:49.067; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 12:56:50.070; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2087785333
+INFO  - 2014-03-11 12:56:50.073; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 12:57:22.737; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 12:57:22.752; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 12:57:22.758; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 12:57:23.622; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 12:57:23.664; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 12:57:23.675; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 12:57:23.676; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 12:57:23.676; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 12:57:23.755; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 12:57:23.821; org.apache.solr.core.CoreContainer; New CoreContainer 2087785333
+INFO  - 2014-03-11 12:57:23.822; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 12:57:23.822; org.apache.solr.core.CoreContainer; loading shared library: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib
+WARN  - 2014-03-11 12:57:23.823; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib).
+INFO  - 2014-03-11 12:57:23.833; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 12:57:23.833; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 12:57:23.836; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 12:57:23.838; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 12:57:23.838; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 12:57:23.838; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 12:57:23.838; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 12:57:23.838; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 12:57:23.838; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 12:57:23.911; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 12:57:23.912; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 12:57:23.912; org.apache.solr.core.CoreContainer; Host Name: null
+INFO  - 2014-03-11 12:57:23.948; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: solr/solr
+INFO  - 2014-03-11 12:57:23.950; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/solr/'
+ERROR - 2014-03-11 12:57:23.960; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr/solrconfig.xml
+ERROR - 2014-03-11 12:57:23.961; org.apache.solr.core.CoreContainer; Unable to create core: core0
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/solr/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+ERROR - 2014-03-11 12:57:23.963; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: core0
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 8 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/solr/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+
+INFO  - 2014-03-11 12:57:23.964; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 12:57:23.964; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 12:57:23.984; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 12:57:34.549; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394535454512} status=0 QTime=15 
+INFO  - 2014-03-11 12:57:34.759; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394535454576} status=0 QTime=179 
+INFO  - 2014-03-11 12:58:19.936; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 12:58:19.938; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 12:58:20.941; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2087785333
+INFO  - 2014-03-11 12:58:20.946; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 12:58:22.390; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 12:58:22.405; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 12:58:22.410; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 12:58:23.338; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 12:58:23.379; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 12:58:23.388; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 12:58:23.388; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 12:58:23.389; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 12:58:23.460; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 12:58:23.518; org.apache.solr.core.CoreContainer; New CoreContainer 2087785333
+INFO  - 2014-03-11 12:58:23.518; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 12:58:23.518; org.apache.solr.core.CoreContainer; loading shared library: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib
+WARN  - 2014-03-11 12:58:23.519; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib).
+INFO  - 2014-03-11 12:58:23.529; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 12:58:23.529; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 12:58:23.532; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 12:58:23.534; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 12:58:23.534; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 12:58:23.534; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 12:58:23.534; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 12:58:23.534; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 12:58:23.535; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 12:58:23.606; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 12:58:23.607; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 12:58:23.608; org.apache.solr.core.CoreContainer; Host Name: null
+INFO  - 2014-03-11 12:58:23.642; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: solr/solr
+INFO  - 2014-03-11 12:58:23.643; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/solr/'
+ERROR - 2014-03-11 12:58:23.649; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr/solrconfig.xml
+ERROR - 2014-03-11 12:58:23.651; org.apache.solr.core.CoreContainer; Unable to create core: core0
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/solr/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+ERROR - 2014-03-11 12:58:23.653; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: core0
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 8 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/solr/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+
+INFO  - 2014-03-11 12:58:23.655; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 12:58:23.655; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 12:58:23.675; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 12:58:26.101; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394535506075} status=0 QTime=17 
+INFO  - 2014-03-11 12:58:26.149; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394535506128} status=0 QTime=12 
+INFO  - 2014-03-11 12:58:34.481; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394535514470} status=0 QTime=0 
+INFO  - 2014-03-11 12:58:34.607; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394535514521} status=0 QTime=80 
+INFO  - 2014-03-11 12:58:43.896; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 12:58:43.971; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 12:58:44.973; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2087785333
+INFO  - 2014-03-11 12:58:44.978; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+WARN  - 2014-03-11 12:58:45.031; org.eclipse.jetty.util.thread.QueuedThreadPool; 1 threads could not be stopped
+INFO  - 2014-03-11 12:59:04.364; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 12:59:04.380; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 12:59:04.495; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 12:59:05.334; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 12:59:05.372; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 12:59:05.381; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 12:59:05.382; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 12:59:05.382; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 12:59:05.457; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 12:59:05.517; org.apache.solr.core.CoreContainer; New CoreContainer 2087785333
+INFO  - 2014-03-11 12:59:05.518; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 12:59:05.518; org.apache.solr.core.CoreContainer; loading shared library: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib
+WARN  - 2014-03-11 12:59:05.518; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib).
+INFO  - 2014-03-11 12:59:05.529; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 12:59:05.529; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 12:59:05.532; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 12:59:05.533; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 12:59:05.534; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 12:59:05.534; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 12:59:05.534; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 12:59:05.534; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 12:59:05.534; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 12:59:05.619; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 12:59:05.620; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 12:59:05.621; org.apache.solr.core.CoreContainer; Host Name: null
+INFO  - 2014-03-11 12:59:05.658; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: solr/core0
+INFO  - 2014-03-11 12:59:05.658; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/core0/'
+ERROR - 2014-03-11 12:59:05.666; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+ERROR - 2014-03-11 12:59:05.667; org.apache.solr.core.CoreContainer; Unable to create core: core0
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+ERROR - 2014-03-11 12:59:05.670; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: core0
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 8 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+
+INFO  - 2014-03-11 12:59:05.671; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 12:59:05.671; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 12:59:05.689; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 12:59:08.075; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394535548051} status=0 QTime=14 
+INFO  - 2014-03-11 12:59:08.220; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394535548098} status=0 QTime=116 
+INFO  - 2014-03-11 12:59:17.233; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394535557222} status=0 QTime=0 
+INFO  - 2014-03-11 12:59:17.258; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394535557248} status=0 QTime=5 
+INFO  - 2014-03-11 13:00:15.031; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 13:00:15.032; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 13:00:16.033; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2087785333
+INFO  - 2014-03-11 13:00:16.037; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 13:00:23.911; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 13:00:23.926; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 13:00:23.932; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 13:00:24.848; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 13:00:24.888; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 13:00:24.897; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 13:00:24.898; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 13:00:24.898; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 13:00:24.971; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 13:00:25.028; org.apache.solr.core.CoreContainer; New CoreContainer 2087785333
+INFO  - 2014-03-11 13:00:25.028; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 13:00:25.029; org.apache.solr.core.CoreContainer; loading shared library: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib
+WARN  - 2014-03-11 13:00:25.029; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib).
+INFO  - 2014-03-11 13:00:25.039; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 13:00:25.039; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 13:00:25.042; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 13:00:25.044; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 13:00:25.044; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 13:00:25.044; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 13:00:25.044; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 13:00:25.044; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 13:00:25.045; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 13:00:25.118; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 13:00:25.119; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 13:00:25.119; org.apache.solr.core.CoreContainer; Host Name: null
+INFO  - 2014-03-11 13:00:25.153; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: solr/core0
+INFO  - 2014-03-11 13:00:25.153; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/core0/'
+ERROR - 2014-03-11 13:00:25.160; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+ERROR - 2014-03-11 13:00:25.161; org.apache.solr.core.CoreContainer; Unable to create core: core0
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+ERROR - 2014-03-11 13:00:25.163; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: core0
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 8 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+
+INFO  - 2014-03-11 13:00:25.164; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 13:00:25.165; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 13:00:25.182; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 13:00:33.315; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394535633281} status=0 QTime=17 
+INFO  - 2014-03-11 13:00:33.361; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394535633343} status=0 QTime=12 
+INFO  - 2014-03-11 13:00:36.260; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1394535636252} status=0 QTime=0 
+INFO  - 2014-03-11 13:00:53.547; org.apache.solr.core.SolrXMLCoresLocator; Persisted core descriptions to /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 13:00:53.549; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: solr/core0
+INFO  - 2014-03-11 13:00:53.549; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/core0/'
+ERROR - 2014-03-11 13:00:53.561; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+ERROR - 2014-03-11 13:00:53.562; org.apache.solr.core.CoreContainer; Unable to create core: core0
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:509)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:152)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:732)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:268)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 32 more
+ERROR - 2014-03-11 13:00:53.565; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'core0': Unable to create core: core0 Caused by: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:546)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:152)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:732)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:268)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Unable to create core: core0
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:509)
+	... 30 more
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 31 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/core0/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 32 more
+
+INFO  - 2014-03-11 13:00:53.566; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=core0&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=core0&config=solrconfig.xml&_=1394535653538} status=400 QTime=26 
+INFO  - 2014-03-11 13:01:32.750; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 13:01:32.751; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 13:01:33.752; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2087785333
+INFO  - 2014-03-11 13:01:33.758; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 13:03:08.293; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 13:03:08.310; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 13:03:08.317; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 13:03:09.224; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 13:03:09.263; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 13:03:09.272; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 13:03:09.272; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 13:03:09.272; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 13:03:09.347; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 13:03:09.406; org.apache.solr.core.CoreContainer; New CoreContainer 2087785333
+INFO  - 2014-03-11 13:03:09.407; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 13:03:09.407; org.apache.solr.core.CoreContainer; loading shared library: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib
+WARN  - 2014-03-11 13:03:09.407; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib).
+INFO  - 2014-03-11 13:03:09.417; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 13:03:09.417; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 13:03:09.420; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 13:03:09.422; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 13:03:09.422; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 13:03:09.422; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 13:03:09.422; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 13:03:09.422; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 13:03:09.423; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 13:03:09.496; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 13:03:09.496; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 13:03:09.497; org.apache.solr.core.CoreContainer; Host Name: null
+INFO  - 2014-03-11 13:03:09.533; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: solr/conf
+INFO  - 2014-03-11 13:03:09.533; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/conf/'
+INFO  - 2014-03-11 13:03:09.611; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2014-03-11 13:03:09.613; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../contrib/extraction/lib).
+WARN  - 2014-03-11 13:03:09.613; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../dist).
+WARN  - 2014-03-11 13:03:09.614; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../contrib/clustering/lib).
+WARN  - 2014-03-11 13:03:09.614; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../dist).
+WARN  - 2014-03-11 13:03:09.614; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../contrib/langid/lib).
+WARN  - 2014-03-11 13:03:09.614; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../dist).
+WARN  - 2014-03-11 13:03:09.614; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../contrib/velocity/lib).
+WARN  - 2014-03-11 13:03:09.615; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../dist).
+ERROR - 2014-03-11 13:03:09.621; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/solrconfig.xml
+ERROR - 2014-03-11 13:03:09.621; org.apache.solr.core.CoreContainer; Unable to create core: core0
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Invalid luceneMatchVersion '5.0', valid values are: [LUCENE_30, LUCENE_31, LUCENE_32, LUCENE_33, LUCENE_34, LUCENE_35, LUCENE_36, LUCENE_40, LUCENE_41, LUCENE_42, LUCENE_43, LUCENE_44, LUCENE_45, LUCENE_46, LUCENE_47, LUCENE_CURRENT] or a string in format 'V.V'
+	at org.apache.solr.core.Config.parseLuceneVersionString(Config.java:445)
+	at org.apache.solr.core.Config.getLuceneVersion(Config.java:430)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:142)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.lucene.util.Version.LUCENE_50
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at org.apache.lucene.util.Version.valueOf(Version.java:32)
+	at org.apache.lucene.util.Version.parseLeniently(Version.java:162)
+	at org.apache.solr.core.Config.parseLuceneVersionString(Config.java:443)
+	... 12 more
+ERROR - 2014-03-11 13:03:09.624; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: core0
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: Invalid luceneMatchVersion '5.0', valid values are: [LUCENE_30, LUCENE_31, LUCENE_32, LUCENE_33, LUCENE_34, LUCENE_35, LUCENE_36, LUCENE_40, LUCENE_41, LUCENE_42, LUCENE_43, LUCENE_44, LUCENE_45, LUCENE_46, LUCENE_47, LUCENE_CURRENT] or a string in format 'V.V'
+	at org.apache.solr.core.Config.parseLuceneVersionString(Config.java:445)
+	at org.apache.solr.core.Config.getLuceneVersion(Config.java:430)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:142)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.lucene.util.Version.LUCENE_50
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at org.apache.lucene.util.Version.valueOf(Version.java:32)
+	at org.apache.lucene.util.Version.parseLeniently(Version.java:162)
+	at org.apache.solr.core.Config.parseLuceneVersionString(Config.java:443)
+	... 12 more
+
+INFO  - 2014-03-11 13:03:09.626; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 13:03:09.626; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 13:03:09.642; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 13:03:13.242; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394535793215} status=0 QTime=15 
+INFO  - 2014-03-11 13:03:13.283; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394535793267} status=0 QTime=11 
+INFO  - 2014-03-11 13:03:22.205; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 13:03:22.207; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 13:03:23.212; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2087785333
+INFO  - 2014-03-11 13:03:23.218; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 13:03:38.316; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 13:03:38.331; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 13:03:38.336; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 13:03:39.175; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 13:03:39.215; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 13:03:39.226; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 13:03:39.226; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 13:03:39.227; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 13:03:39.299; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 13:03:39.355; org.apache.solr.core.CoreContainer; New CoreContainer 2087785333
+INFO  - 2014-03-11 13:03:39.356; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 13:03:39.356; org.apache.solr.core.CoreContainer; loading shared library: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib
+WARN  - 2014-03-11 13:03:39.356; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/lib).
+INFO  - 2014-03-11 13:03:39.367; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 13:03:39.367; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 13:03:39.370; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 13:03:39.371; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 13:03:39.372; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 13:03:39.372; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 13:03:39.372; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 13:03:39.372; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 13:03:39.372; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 13:03:39.445; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 13:03:39.446; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 13:03:39.446; org.apache.solr.core.CoreContainer; Host Name: null
+INFO  - 2014-03-11 13:03:39.487; org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using instanceDir: solr/conf
+INFO  - 2014-03-11 13:03:39.488; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/conf/'
+INFO  - 2014-03-11 13:03:39.537; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2014-03-11 13:03:39.538; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../contrib/extraction/lib).
+WARN  - 2014-03-11 13:03:39.538; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../dist).
+WARN  - 2014-03-11 13:03:39.539; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../contrib/clustering/lib).
+WARN  - 2014-03-11 13:03:39.539; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../dist).
+WARN  - 2014-03-11 13:03:39.539; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../contrib/langid/lib).
+WARN  - 2014-03-11 13:03:39.539; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../dist).
+WARN  - 2014-03-11 13:03:39.539; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../contrib/velocity/lib).
+WARN  - 2014-03-11 13:03:39.540; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/../../../dist).
+ERROR - 2014-03-11 13:03:39.546; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/solrconfig.xml
+ERROR - 2014-03-11 13:03:39.547; org.apache.solr.core.CoreContainer; Unable to create core: core0
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Invalid luceneMatchVersion '5.0', valid values are: [LUCENE_30, LUCENE_31, LUCENE_32, LUCENE_33, LUCENE_34, LUCENE_35, LUCENE_36, LUCENE_40, LUCENE_41, LUCENE_42, LUCENE_43, LUCENE_44, LUCENE_45, LUCENE_46, LUCENE_47, LUCENE_CURRENT] or a string in format 'V.V'
+	at org.apache.solr.core.Config.parseLuceneVersionString(Config.java:445)
+	at org.apache.solr.core.Config.getLuceneVersion(Config.java:430)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:142)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.lucene.util.Version.LUCENE_50
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at org.apache.lucene.util.Version.valueOf(Version.java:32)
+	at org.apache.lucene.util.Version.parseLeniently(Version.java:162)
+	at org.apache.solr.core.Config.parseLuceneVersionString(Config.java:443)
+	... 12 more
+ERROR - 2014-03-11 13:03:39.550; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: core0
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/home/zmahlaza/Documents/uct/ir/solr-system/solr/conf/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: Invalid luceneMatchVersion '5.0', valid values are: [LUCENE_30, LUCENE_31, LUCENE_32, LUCENE_33, LUCENE_34, LUCENE_35, LUCENE_36, LUCENE_40, LUCENE_41, LUCENE_42, LUCENE_43, LUCENE_44, LUCENE_45, LUCENE_46, LUCENE_47, LUCENE_CURRENT] or a string in format 'V.V'
+	at org.apache.solr.core.Config.parseLuceneVersionString(Config.java:445)
+	at org.apache.solr.core.Config.getLuceneVersion(Config.java:430)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:142)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.lucene.util.Version.LUCENE_50
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at org.apache.lucene.util.Version.valueOf(Version.java:32)
+	at org.apache.lucene.util.Version.parseLeniently(Version.java:162)
+	at org.apache.solr.core.Config.parseLuceneVersionString(Config.java:443)
+	... 12 more
+
+INFO  - 2014-03-11 13:03:39.551; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 13:03:39.551; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 13:03:39.568; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 13:03:42.191; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394535822163} status=0 QTime=16 
+INFO  - 2014-03-11 13:03:42.224; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394535822210} status=0 QTime=9 
+INFO  - 2014-03-11 13:03:43.697; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1394535823695} status=0 QTime=0 
+INFO  - 2014-03-11 13:04:08.556; org.apache.solr.core.SolrXMLCoresLocator; Persisted core descriptions to /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 13:04:08.557; org.apache.solr.core.CoreContainer; Creating SolrCore 'project_core' using instanceDir: solr/project_core
+INFO  - 2014-03-11 13:04:08.557; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/project_core/'
+ERROR - 2014-03-11 13:04:08.564; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/solr/project_core/solrconfig.xml
+ERROR - 2014-03-11 13:04:08.565; org.apache.solr.core.CoreContainer; Unable to create core: project_core
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/project_core/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:509)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:152)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:732)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:268)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/project_core/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 32 more
+ERROR - 2014-03-11 13:04:08.567; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'project_core': Unable to create core: project_core Caused by: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/project_core/conf'
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:546)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:152)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.servlet.SolrDispatchFilter.handleAdminRequest(SolrDispatchFilter.java:732)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:268)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Unable to create core: project_core
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:509)
+	... 30 more
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/solr/project_core/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 31 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/solr/project_core/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 32 more
+
+INFO  - 2014-03-11 13:04:08.568; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=project_data&name=project_core&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=project_core&config=solrconfig.xml&_=1394535848548} status=400 QTime=18 
+INFO  - 2014-03-11 13:07:56.026; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 13:07:56.028; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 13:07:57.029; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=2087785333
+INFO  - 2014-03-11 13:07:57.035; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 13:08:18.352; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 13:08:18.370; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 13:08:18.376; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 13:08:19.261; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 13:08:19.299; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 13:08:19.308; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 13:08:19.309; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: .
+INFO  - 2014-03-11 13:08:19.309; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './'
+INFO  - 2014-03-11 13:08:19.311; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-xml-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.311; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/ext/' to classloader
+INFO  - 2014-03-11 13:08:19.312; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-servlet-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.312; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-deploy-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.312; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-io-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.312; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-continuation-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.313; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-server-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.313; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-jmx-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.314; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-util-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.314; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/servlet-api-3.0.jar' to classloader
+INFO  - 2014-03-11 13:08:19.314; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-security-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.315; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-webapp-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.315; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/zmahlaza/Documents/uct/ir/solr-system/lib/jetty-http-8.1.10.v20130312.jar' to classloader
+INFO  - 2014-03-11 13:08:19.389; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/./solr.xml
+INFO  - 2014-03-11 13:08:19.394; org.apache.solr.core.ConfigSolr; /home/zmahlaza/Documents/uct/ir/solr-system/./solr.xml does not exist, using default configuration
+INFO  - 2014-03-11 13:08:19.451; org.apache.solr.core.CoreContainer; New CoreContainer 1374066265
+INFO  - 2014-03-11 13:08:19.451; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=./]
+INFO  - 2014-03-11 13:08:19.457; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 13:08:19.457; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 13:08:19.457; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 13:08:19.457; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 13:08:19.457; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 13:08:19.458; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 13:08:19.458; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 13:08:19.458; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 13:08:19.458; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 13:08:19.533; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 13:08:19.533; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 13:08:19.534; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-11 13:08:19.567; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: ./collection1
+INFO  - 2014-03-11 13:08:19.567; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './collection1/'
+ERROR - 2014-03-11 13:08:19.575; org.apache.solr.core.CoreContainer; Failed to load file /home/zmahlaza/Documents/uct/ir/solr-system/./collection1/solrconfig.xml
+ERROR - 2014-03-11 13:08:19.576; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+ERROR - 2014-03-11 13:08:19.578; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.common.SolrException: Could not load config file /home/zmahlaza/Documents/uct/ir/solr-system/./collection1/solrconfig.xml
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:530)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 8 more
+Caused by: java.io.IOException: Can't find resource 'solrconfig.xml' in classpath or '/home/zmahlaza/Documents/uct/ir/solr-system/./collection1/conf'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:342)
+	at org.apache.solr.core.SolrResourceLoader.openConfig(SolrResourceLoader.java:288)
+	at org.apache.solr.core.Config.<init>(Config.java:116)
+	at org.apache.solr.core.Config.<init>(Config.java:86)
+	at org.apache.solr.core.SolrConfig.<init>(SolrConfig.java:140)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:527)
+	... 9 more
+
+INFO  - 2014-03-11 13:08:19.579; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 13:08:19.579; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 13:08:19.596; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 13:08:31.522; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 13:08:31.523; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 13:08:32.524; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1374066265
+INFO  - 2014-03-11 13:08:32.527; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
