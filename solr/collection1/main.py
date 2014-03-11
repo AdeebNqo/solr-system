@@ -26,6 +26,7 @@ def getcompatible(record):
 #
 solr = pysolr.Solr('http://localhost:8983/solr/')
 def indexrecords(docs):
+	#solr.search('hello')
 	solr.add(docs)
 
 #
@@ -49,6 +50,7 @@ for File in files:
 		for record in records:
 			record = getcompatible(record)
 			finalrecords.append(record)
+			break
 	if (len(finalrecords)!=0):		
-		#print(finalrecords)
+		print(finalrecords)
 		indexrecords(finalrecords)
