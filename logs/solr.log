@@ -6,3 +6,44 @@ INFO  - 2014-03-11 09:40:23.932; org.eclipse.jetty.server.Server; jetty-8.1.10.v
 INFO  - 2014-03-11 09:40:23.947; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
 INFO  - 2014-03-11 09:40:23.957; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
 INFO  - 2014-03-11 09:41:21.971; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 09:52:15.205; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 09:52:15.221; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 09:52:15.230; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 09:52:20.157; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 09:53:59.175; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 09:53:59.190; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 09:53:59.195; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/zmahlaza/Documents/uct/ir/solr-system/contexts/solr-jetty-context.xml
+INFO  - 2014-03-11 09:53:59.245; org.eclipse.jetty.webapp.WebInfConfiguration; Extract jar:file:/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war!/ to /home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp
+INFO  - 2014-03-11 09:54:05.461; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-11 09:54:05.500; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-11 09:54:05.510; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-11 09:54:05.510; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-11 09:54:05.511; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-11 09:54:05.584; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/zmahlaza/Documents/uct/ir/solr-system/solr/solr.xml
+INFO  - 2014-03-11 09:54:05.642; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /home/zmahlaza/Documents/uct/ir/solr-system/solr
+INFO  - 2014-03-11 09:54:05.647; org.apache.solr.core.CoreContainer; New CoreContainer 1213818572
+INFO  - 2014-03-11 09:54:05.647; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-11 09:54:05.659; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-11 09:54:05.660; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-11 09:54:05.666; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-11 09:54:05.668; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-11 09:54:05.668; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-11 09:54:05.668; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-11 09:54:05.668; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-11 09:54:05.668; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-11 09:54:05.669; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-11 09:54:05.749; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-11 09:54:05.750; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-11 09:54:05.751; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-11 09:54:05.779; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/zmahlaza/Documents/uct/ir/solr-system/solr
+INFO  - 2014-03-11 09:54:05.914; org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions
+INFO  - 2014-03-11 09:54:05.916; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/zmahlaza/Documents/uct/ir/solr-system
+INFO  - 2014-03-11 09:54:05.917; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-11 09:54:05.936; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 09:54:15.282; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1394524455249} status=0 QTime=16 
+INFO  - 2014-03-11 09:54:15.337; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1394524455301} status=0 QTime=32 
+INFO  - 2014-03-11 09:54:15.375; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1394524455373} status=0 QTime=1 
+INFO  - 2014-03-11 09:54:21.060; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 09:54:21.061; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-11 09:54:22.066; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1213818572
+INFO  - 2014-03-11 09:54:22.071; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
