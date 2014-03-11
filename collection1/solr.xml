@@ -1,0 +1,5 @@
+<solr persistent="true" sharedLib="lib">
+ <cores adminPath="/admin/cores">
+    <core config="solrconfig.xml" name="project_core" instanceDir="project_core" schema="schema.xml" dataDir="project_data"/>
+</cores>
+</solr>
