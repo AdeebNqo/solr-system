@@ -4,16 +4,6 @@ import re #regular expressions
 import pysolr
 import os
 
-def createdocsrtucture():
-	<doc>
-	<field name="auction_id">54432834</field>
-	<field name="title">Dell M2012 24" IPS Monitor</field>
-	<field name="category">monitors</field>
-	<field name="current_bid">279.95</field>
-	<field name="end_date">2013-01-06T09:26:04.18Z</field>
-	<field name="feature">IPS</field>
-	<field name="feature">Swivel</field>
-	</doc>
 def getcompatible(record):
 	bit = 1
 	recordfields = record.getchildren()
@@ -48,6 +38,7 @@ def getrecords(afile,directory):
 	records = listRecords.getchildren()
 	return records
 
+#
 #getting records in from a single file
 directory = sys.argv[1]
 files = os.listdir(directory)
@@ -58,6 +49,6 @@ for File in files:
 		for record in records:
 			record = getcompatible(record)
 			finalrecords.append(record)
-	if (len(finalrecords)!=0):
+	if (len(finalrecords)!=0):		
 		#print(finalrecords)
 		indexrecords(finalrecords)

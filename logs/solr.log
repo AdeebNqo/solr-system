@@ -1,0 +1,8 @@
+INFO  - 2014-03-11 09:39:54.964; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 09:39:54.980; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 09:39:54.988; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 09:40:19.292; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 09:40:23.932; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-11 09:40:23.947; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/zmahlaza/Documents/uct/ir/solr-system/contexts at interval 0
+INFO  - 2014-03-11 09:40:23.957; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-11 09:41:21.971; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
