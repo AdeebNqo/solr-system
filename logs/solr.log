@@ -2799,3 +2799,1461 @@ INFO  - 2014-03-11 13:23:27.977; org.apache.solr.core.CachingDirectoryFactory; C
 INFO  - 2014-03-11 13:23:27.979; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/zmahlaza/Documents/uct/ir/solr-system/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/zmahlaza/Documents/uct/ir/solr-system/solr/collection1/data/index;done=false>>]
 INFO  - 2014-03-11 13:23:27.979; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/zmahlaza/Documents/uct/ir/solr-system/solr/collection1/data/index
 INFO  - 2014-03-11 13:23:27.984; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/zmahlaza/Documents/uct/ir/solr-system/solr-webapp/webapp/},/home/zmahlaza/Documents/uct/ir/solr-system/webapps/solr.war
+INFO  - 2014-03-12 10:37:16.344; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 10:37:16.384; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 10:37:16.393; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 10:37:18.019; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 10:37:18.098; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 10:37:18.137; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 10:37:18.138; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 10:37:18.139; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 10:37:18.289; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 10:37:18.298; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 10:37:18.529; org.apache.solr.core.CoreContainer; New CoreContainer 22156983
+INFO  - 2014-03-12 10:37:18.530; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 10:37:18.546; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 10:37:18.547; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 10:37:18.547; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 10:37:18.548; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 10:37:18.550; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 10:37:18.551; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 10:37:18.551; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 10:37:18.551; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 10:37:18.551; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 10:37:18.807; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 10:37:18.808; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 10:37:18.810; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 10:37:18.865; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 10:37:18.866; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 10:37:18.964; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 10:37:19.070; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 10:37:19.076; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 10:37:19.082; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+WARN  - 2014-03-12 10:37:19.099; org.apache.solr.schema.IndexSchema; no uniqueKey specified in schema.
+INFO  - 2014-03-12 10:37:19.130; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2014-03-12 10:37:19.159; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at solr/collection1/, dataDir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/
+INFO  - 2014-03-12 10:37:19.160; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: collection1
+INFO  - 2014-03-12 10:37:19.188; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data
+INFO  - 2014-03-12 10:37:19.188; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index/
+INFO  - 2014-03-12 10:37:19.189; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index
+INFO  - 2014-03-12 10:37:19.293; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2014-03-12 10:37:19.303; org.apache.solr.core.RequestHandlers; created collection1: solr.SearchHandler
+INFO  - 2014-03-12 10:37:19.312; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2014-03-12 10:37:19.313; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2014-03-12 10:37:19.432; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index lockFactory=NativeFSLockFactory@/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2014-03-12 10:37:19.433; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2014-03-12 10:37:19.441; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@15327f4[collection1] main
+INFO  - 2014-03-12 10:37:19.456; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@15327f4[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-03-12 10:37:19.456; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2014-03-12 10:37:19.459; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 10:37:19.459; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 10:37:19.490; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 10:37:35.042; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1394613455027&wt=json} status=0 QTime=7 
+INFO  - 2014-03-12 10:37:35.103; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1394613455083&wt=json} status=0 QTime=13 
+INFO  - 2014-03-12 10:37:37.654; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613457640&since=0&wt=json} status=0 QTime=2 
+INFO  - 2014-03-12 10:37:39.469; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613459462&wt=json} status=0 QTime=5 
+INFO  - 2014-03-12 10:37:41.024; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613461013&since=0&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:37:51.041; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613471030&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:38:01.051; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613481046&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:38:11.062; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613491057&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:38:21.072; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613501068&since=1394613439099&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:38:31.082; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613511078&since=1394613439099&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:38:41.090; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613521087&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:38:51.097; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613531093&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:39:01.105; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613541103&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:39:11.113; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613551109&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:39:21.123; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613561119&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:39:31.132; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613571127&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:39:41.144; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613581138&since=1394613439099&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:39:51.159; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613591156&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:40:01.168; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613601164&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:40:11.179; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613611174&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:40:21.188; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613621184&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:40:31.197; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613631193&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:40:41.205; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613641202&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:40:51.212; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613651209&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:41:01.220; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613661217&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:41:11.228; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613671225&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:41:21.238; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613681234&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:41:31.247; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613691243&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:41:41.261; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613701257&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:41:51.271; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613711266&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:42:01.279; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613721275&since=1394613439099&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:42:11.292; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613731286&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:42:21.302; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613741297&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:42:31.314; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613751308&since=1394613439099&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:42:41.330; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613761323&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:42:51.816; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613771522&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:43:01.888; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613781883&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:43:11.910; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613791894&since=1394613439099&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:43:21.921; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613801915&since=1394613439099&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:43:31.930; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613811927&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:43:41.939; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613821934&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:43:51.951; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613831945&since=1394613439099&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:44:01.960; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613841956&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:44:11.970; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613851965&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:44:21.979; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613861974&since=1394613439099&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:44:22.342; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 10:44:22.342; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 10:44:23.344; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=22156983
+INFO  - 2014-03-12 10:44:23.345; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@fcb8e7
+INFO  - 2014-03-12 10:44:23.346; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2014-03-12 10:44:23.347; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2014-03-12 10:44:23.347; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2014-03-12 10:44:23.347; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2014-03-12 10:44:23.352; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2014-03-12 10:44:23.353; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2014-03-12 10:44:23.354; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data [CachedDir<<refCount=0;path=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data;done=false>>]
+INFO  - 2014-03-12 10:44:23.355; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data
+INFO  - 2014-03-12 10:44:23.355; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index;done=false>>]
+INFO  - 2014-03-12 10:44:23.355; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index
+INFO  - 2014-03-12 10:44:23.360; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 10:45:09.011; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 10:45:09.036; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 10:45:09.048; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 10:45:10.707; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 10:45:10.776; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 10:45:10.802; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 10:45:10.803; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 10:45:10.803; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 10:45:10.956; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 10:45:10.965; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 10:45:11.076; org.apache.solr.core.CoreContainer; New CoreContainer 22156983
+INFO  - 2014-03-12 10:45:11.076; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 10:45:11.086; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 10:45:11.087; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 10:45:11.087; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 10:45:11.087; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 10:45:11.090; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 10:45:11.090; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 10:45:11.091; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 10:45:11.091; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 10:45:11.091; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 10:45:11.233; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 10:45:11.234; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 10:45:11.235; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 10:45:11.286; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 10:45:11.287; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 10:45:11.369; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 10:45:11.469; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 10:45:11.475; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 10:45:11.481; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+WARN  - 2014-03-12 10:45:11.508; org.apache.solr.schema.IndexSchema; no uniqueKey specified in schema.
+INFO  - 2014-03-12 10:45:11.535; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2014-03-12 10:45:11.544; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at solr/collection1/, dataDir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/
+INFO  - 2014-03-12 10:45:11.544; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: collection1
+INFO  - 2014-03-12 10:45:11.565; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data
+INFO  - 2014-03-12 10:45:11.565; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index/
+INFO  - 2014-03-12 10:45:11.566; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index
+INFO  - 2014-03-12 10:45:11.672; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2014-03-12 10:45:11.679; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2014-03-12 10:45:11.711; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+WARN  - 2014-03-12 10:45:11.713; org.apache.solr.core.RequestHandlers; no default request handler is registered (either '/select' or 'standard')
+INFO  - 2014-03-12 10:45:11.722; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2014-03-12 10:45:11.722; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2014-03-12 10:45:11.775; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index lockFactory=NativeFSLockFactory@/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2014-03-12 10:45:11.775; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2014-03-12 10:45:11.783; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@1876f2a[collection1] main
+INFO  - 2014-03-12 10:45:11.796; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@1876f2a[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-03-12 10:45:11.796; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2014-03-12 10:45:11.798; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 10:45:11.799; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 10:45:11.834; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 10:45:20.607; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1394613920592&wt=json} status=0 QTime=7 
+INFO  - 2014-03-12 10:45:20.672; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1394613920642&wt=json} status=0 QTime=20 
+INFO  - 2014-03-12 10:45:24.680; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613924675&since=0&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:45:34.716; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613934700&since=1394613911713&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:45:40.240; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {} 0 44
+ERROR - 2014-03-12 10:45:40.241; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Unexpected <doc> tag without an <add> tag surrounding it.
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:249)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:174)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:92)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1916)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:780)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:427)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+INFO  - 2014-03-12 10:45:40.259; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-03-12 10:45:40.260; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2014-03-12 10:45:40.260; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@1b78021[collection1] main
+INFO  - 2014-03-12 10:45:40.261; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-03-12 10:45:40.262; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@1b78021[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-03-12 10:45:40.262; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={commit=true} {commit=} 0 12
+INFO  - 2014-03-12 10:45:44.728; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613944722&since=1394613911713&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:45:54.740; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613954735&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:46:04.750; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613964745&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:46:14.760; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613974755&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:46:24.766; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613984763&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:46:34.772; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394613994769&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:46:44.780; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614004776&since=1394613940241&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:46:54.788; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614014784&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:47:04.799; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614024794&since=1394613940241&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:47:14.811; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614034806&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:47:24.825; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614044822&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:47:34.835; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614054831&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:47:44.846; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614064841&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:47:54.858; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614074852&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:48:04.867; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614084863&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:48:14.878; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614094873&since=1394613940241&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:48:24.888; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614104883&since=1394613940241&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:48:34.963; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614114913&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:48:44.972; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614124968&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:48:55.008; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614134996&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:49:05.018; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614145012&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:49:15.030; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614155025&since=1394613940241&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:49:25.040; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614165035&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:49:35.052; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614175048&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:49:45.065; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614185058&since=1394613940241&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:49:55.075; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614195069&since=1394613940241&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:50:05.084; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614205081&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:50:15.093; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614215089&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:50:25.104; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614225098&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:50:35.112; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614235107&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:50:45.120; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614245115&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:50:55.127; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614255123&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:51:05.135; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614265130&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:51:07.700; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-03-12 10:51:07.701; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2014-03-12 10:51:07.702; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@12e6de0[collection1] main
+INFO  - 2014-03-12 10:51:07.702; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-03-12 10:51:07.702; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@12e6de0[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-03-12 10:51:07.703; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={commit=true} {commit=} 0 3
+INFO  - 2014-03-12 10:51:15.146; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614275141&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:51:25.156; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614285152&since=1394613940241&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:51:31.753; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 10:51:31.754; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 10:51:32.756; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=22156983
+INFO  - 2014-03-12 10:51:32.756; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@1c6160c
+INFO  - 2014-03-12 10:51:32.757; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=2,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2014-03-12 10:51:32.758; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2014-03-12 10:51:32.758; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2014-03-12 10:51:32.759; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2014-03-12 10:51:32.760; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2014-03-12 10:51:32.762; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2014-03-12 10:51:32.762; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index;done=false>>]
+INFO  - 2014-03-12 10:51:32.763; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index
+INFO  - 2014-03-12 10:51:32.763; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data [CachedDir<<refCount=0;path=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data;done=false>>]
+INFO  - 2014-03-12 10:51:32.764; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data
+INFO  - 2014-03-12 10:51:32.767; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 10:51:45.157; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 10:51:45.183; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 10:51:45.193; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 10:51:46.788; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 10:51:46.855; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 10:51:46.881; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 10:51:46.881; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 10:51:46.882; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 10:51:47.049; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 10:51:47.057; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 10:51:47.203; org.apache.solr.core.CoreContainer; New CoreContainer 29827422
+INFO  - 2014-03-12 10:51:47.204; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 10:51:47.218; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 10:51:47.218; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 10:51:47.219; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 10:51:47.219; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 10:51:47.222; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 10:51:47.222; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 10:51:47.222; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 10:51:47.223; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 10:51:47.223; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 10:51:47.357; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 10:51:47.358; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 10:51:47.359; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 10:51:47.410; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 10:51:47.411; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 10:51:47.490; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 10:51:47.597; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 10:51:47.605; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 10:51:47.613; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+WARN  - 2014-03-12 10:51:47.638; org.apache.solr.schema.IndexSchema; no uniqueKey specified in schema.
+INFO  - 2014-03-12 10:51:47.667; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2014-03-12 10:51:47.673; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at solr/collection1/, dataDir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/
+INFO  - 2014-03-12 10:51:47.673; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: collection1
+INFO  - 2014-03-12 10:51:47.689; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data
+INFO  - 2014-03-12 10:51:47.689; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index/
+INFO  - 2014-03-12 10:51:47.689; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index
+INFO  - 2014-03-12 10:51:47.784; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2014-03-12 10:51:47.796; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2014-03-12 10:51:47.819; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+WARN  - 2014-03-12 10:51:47.821; org.apache.solr.core.RequestHandlers; no default request handler is registered (either '/select' or 'standard')
+INFO  - 2014-03-12 10:51:47.830; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2014-03-12 10:51:47.830; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2014-03-12 10:51:47.877; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index lockFactory=NativeFSLockFactory@/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2014-03-12 10:51:47.877; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2014-03-12 10:51:47.886; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@1f979cb[collection1] main
+INFO  - 2014-03-12 10:51:47.906; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@1f979cb[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-03-12 10:51:47.906; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2014-03-12 10:51:47.909; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 10:51:47.909; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 10:51:47.949; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 10:52:11.375; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1394614331356&wt=json} status=0 QTime=7 
+INFO  - 2014-03-12 10:52:11.438; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1394614331411&wt=json} status=0 QTime=18 
+INFO  - 2014-03-12 10:52:16.398; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {} 0 46
+ERROR - 2014-03-12 10:52:16.399; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: ERROR: unknown field 'title'
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:174)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:77)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:263)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:160)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:69)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:51)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:719)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:556)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:100)
+	at org.apache.solr.handler.loader.XMLLoader.processUpdate(XMLLoader.java:247)
+	at org.apache.solr.handler.loader.XMLLoader.load(XMLLoader.java:174)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:92)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1916)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:780)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:427)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+INFO  - 2014-03-12 10:52:16.413; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-03-12 10:52:16.413; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2014-03-12 10:52:16.414; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@f8145f[collection1] main
+INFO  - 2014-03-12 10:52:16.415; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-03-12 10:52:16.416; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@f8145f[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-03-12 10:52:16.417; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={commit=true} {commit=} 0 11
+INFO  - 2014-03-12 10:52:21.614; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614341600&since=0&wt=json} status=0 QTime=3 
+INFO  - 2014-03-12 10:52:31.631; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614351626&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:52:41.642; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614361637&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:52:51.655; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614371649&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:53:01.665; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614381661&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:53:11.675; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614391670&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:53:21.684; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614401679&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:53:31.695; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614411690&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:53:41.707; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614421702&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:53:51.720; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614431714&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:54:01.733; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614441726&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:54:11.742; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614451738&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:54:21.756; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614461749&since=1394614336399&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:54:31.764; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614471760&since=1394614336399&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:54:41.775; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614481770&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:54:51.783; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614491779&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:55:01.798; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614501794&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:55:11.809; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614511804&since=1394614336399&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:55:21.823; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614521816&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:55:31.832; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614531828&since=1394614336399&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 10:55:41.841; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614541837&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:55:51.851; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614551846&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:56:01.860; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614561855&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:56:11.868; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614571864&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:56:21.879; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614581874&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:56:31.888; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394614591884&since=1394614336399&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 10:56:41.120; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 10:56:41.120; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 10:56:42.122; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=29827422
+INFO  - 2014-03-12 10:56:42.122; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@b82686
+INFO  - 2014-03-12 10:56:42.122; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=1,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=1,cumulative_adds=1,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=1}
+INFO  - 2014-03-12 10:56:42.123; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2014-03-12 10:56:42.123; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2014-03-12 10:56:42.123; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2014-03-12 10:56:42.124; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2014-03-12 10:56:42.125; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2014-03-12 10:56:42.125; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data [CachedDir<<refCount=0;path=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data;done=false>>]
+INFO  - 2014-03-12 10:56:42.126; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data
+INFO  - 2014-03-12 10:56:42.126; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index;done=false>>]
+INFO  - 2014-03-12 10:56:42.126; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index
+INFO  - 2014-03-12 10:56:42.128; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 10:57:17.587; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 10:57:17.611; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 10:57:17.618; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 10:57:19.266; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 10:57:19.345; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 10:57:19.370; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 10:57:19.370; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 10:57:19.371; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 10:57:19.526; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 10:57:19.534; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 10:57:19.646; org.apache.solr.core.CoreContainer; New CoreContainer 9248901
+INFO  - 2014-03-12 10:57:19.647; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 10:57:19.657; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 10:57:19.657; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 10:57:19.658; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 10:57:19.658; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 10:57:19.660; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 10:57:19.660; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 10:57:19.660; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 10:57:19.661; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 10:57:19.661; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 10:57:19.802; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 10:57:19.803; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 10:57:19.804; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 10:57:19.854; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 10:57:19.854; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 10:57:19.935; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 10:57:20.038; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 10:57:20.044; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 10:57:20.053; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+ERROR - 2014-03-12 10:57:20.072; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+ERROR - 2014-03-12 10:57:20.078; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 10 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+INFO  - 2014-03-12 10:57:20.081; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 10:57:20.081; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 10:57:20.133; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 10:57:45.261; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1394614665173&wt=json} status=0 QTime=27 
+ERROR - 2014-03-12 10:57:45.297; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:827)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:317)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+ERROR - 2014-03-12 10:57:51.659; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:827)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:317)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+INFO  - 2014-03-12 11:00:57.725; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:00:57.726; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:00:58.727; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=9248901
+INFO  - 2014-03-12 11:00:58.730; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:01:02.266; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 11:01:02.289; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 11:01:02.296; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 11:01:03.895; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 11:01:03.958; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 11:01:03.975; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 11:01:03.975; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 11:01:03.976; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 11:01:04.158; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 11:01:04.167; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 11:01:04.287; org.apache.solr.core.CoreContainer; New CoreContainer 31037179
+INFO  - 2014-03-12 11:01:04.288; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 11:01:04.298; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 11:01:04.298; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 11:01:04.298; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 11:01:04.299; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 11:01:04.300; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 11:01:04.301; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 11:01:04.301; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 11:01:04.301; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 11:01:04.301; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 11:01:04.427; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 11:01:04.428; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 11:01:04.429; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 11:01:04.486; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 11:01:04.486; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 11:01:04.566; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 11:01:04.671; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 11:01:04.679; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 11:01:04.685; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+ERROR - 2014-03-12 11:01:04.711; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+ERROR - 2014-03-12 11:01:04.714; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 10 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+INFO  - 2014-03-12 11:01:04.717; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 11:01:04.718; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 11:01:04.764; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:04:16.690; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:04:16.691; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:04:17.692; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=31037179
+INFO  - 2014-03-12 11:04:17.694; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:04:20.397; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 11:04:20.422; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 11:04:20.430; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 11:04:22.026; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 11:04:22.094; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 11:04:22.120; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 11:04:22.120; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 11:04:22.121; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 11:04:22.276; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 11:04:22.285; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 11:04:22.389; org.apache.solr.core.CoreContainer; New CoreContainer 13687068
+INFO  - 2014-03-12 11:04:22.390; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 11:04:22.400; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 11:04:22.400; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 11:04:22.401; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 11:04:22.401; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 11:04:22.403; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 11:04:22.403; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 11:04:22.403; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 11:04:22.404; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 11:04:22.404; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 11:04:22.544; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 11:04:22.545; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 11:04:22.546; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 11:04:22.596; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 11:04:22.597; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 11:04:22.670; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 11:04:22.778; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 11:04:22.784; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 11:04:22.790; org.apache.solr.schema.IndexSchema; [collection1] Schema name=collection1
+WARN  - 2014-03-12 11:04:22.810; org.apache.solr.schema.IndexSchema; no uniqueKey specified in schema.
+INFO  - 2014-03-12 11:04:22.850; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2014-03-12 11:04:22.856; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at solr/collection1/, dataDir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/
+INFO  - 2014-03-12 11:04:22.856; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: collection1
+INFO  - 2014-03-12 11:04:22.874; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data
+INFO  - 2014-03-12 11:04:22.875; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index/
+INFO  - 2014-03-12 11:04:22.876; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index
+INFO  - 2014-03-12 11:04:22.972; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2014-03-12 11:04:22.983; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2014-03-12 11:04:23.002; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+WARN  - 2014-03-12 11:04:23.004; org.apache.solr.core.RequestHandlers; no default request handler is registered (either '/select' or 'standard')
+INFO  - 2014-03-12 11:04:23.015; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2014-03-12 11:04:23.015; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2014-03-12 11:04:23.061; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index lockFactory=NativeFSLockFactory@/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2014-03-12 11:04:23.061; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2014-03-12 11:04:23.069; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@169e1de[collection1] main
+INFO  - 2014-03-12 11:04:23.082; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2014-03-12 11:04:23.082; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@169e1de[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-03-12 11:04:23.084; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 11:04:23.084; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 11:04:23.120; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:04:34.933; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1394615074903&wt=json} status=0 QTime=10 
+INFO  - 2014-03-12 11:04:34.986; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1394615074966&wt=json} status=0 QTime=12 
+INFO  - 2014-03-12 11:04:35.027; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394615075012&since=0&wt=json} status=0 QTime=2 
+INFO  - 2014-03-12 11:04:45.051; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394615085036&since=1394615063004&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 11:04:45.398; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:04:45.398; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:04:46.403; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=13687068
+INFO  - 2014-03-12 11:04:46.404; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@1998709
+INFO  - 2014-03-12 11:04:46.404; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2014-03-12 11:04:46.405; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2014-03-12 11:04:46.405; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2014-03-12 11:04:46.406; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2014-03-12 11:04:46.408; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2014-03-12 11:04:46.410; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2014-03-12 11:04:46.411; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data [CachedDir<<refCount=0;path=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data;done=false>>]
+INFO  - 2014-03-12 11:04:46.411; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data
+INFO  - 2014-03-12 11:04:46.412; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index;done=false>>]
+INFO  - 2014-03-12 11:04:46.412; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index
+INFO  - 2014-03-12 11:04:46.416; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:08:30.459; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 11:08:30.484; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 11:08:30.495; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 11:08:32.137; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 11:08:32.210; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 11:08:32.236; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 11:08:32.236; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 11:08:32.237; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 11:08:32.391; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 11:08:32.400; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 11:08:32.508; org.apache.solr.core.CoreContainer; New CoreContainer 4337116
+INFO  - 2014-03-12 11:08:32.508; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 11:08:32.518; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 11:08:32.519; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 11:08:32.519; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 11:08:32.519; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 11:08:32.521; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 11:08:32.521; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 11:08:32.522; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 11:08:32.522; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 11:08:32.522; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 11:08:32.652; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 11:08:32.653; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 11:08:32.654; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 11:08:32.706; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 11:08:32.707; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 11:08:32.789; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 11:08:32.888; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 11:08:32.894; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 11:08:32.900; org.apache.solr.schema.IndexSchema; [collection1] Schema name=collection1
+WARN  - 2014-03-12 11:08:32.951; org.apache.solr.schema.IndexSchema; no uniqueKey specified in schema.
+INFO  - 2014-03-12 11:08:32.986; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2014-03-12 11:08:32.994; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at solr/collection1/, dataDir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/
+INFO  - 2014-03-12 11:08:32.994; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: collection1
+INFO  - 2014-03-12 11:08:33.012; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data
+INFO  - 2014-03-12 11:08:33.013; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index/
+INFO  - 2014-03-12 11:08:33.013; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index
+INFO  - 2014-03-12 11:08:33.100; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2014-03-12 11:08:33.111; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2014-03-12 11:08:33.131; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+WARN  - 2014-03-12 11:08:33.133; org.apache.solr.core.RequestHandlers; no default request handler is registered (either '/select' or 'standard')
+INFO  - 2014-03-12 11:08:33.148; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2014-03-12 11:08:33.149; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2014-03-12 11:08:33.197; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index lockFactory=NativeFSLockFactory@/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2014-03-12 11:08:33.198; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2014-03-12 11:08:33.206; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@127c6e4[collection1] main
+INFO  - 2014-03-12 11:08:33.218; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2014-03-12 11:08:33.218; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@127c6e4[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-03-12 11:08:33.219; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 11:08:33.220; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 11:08:33.251; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:08:42.530; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1394615322509&wt=json} status=0 QTime=6 
+INFO  - 2014-03-12 11:08:42.586; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1394615322566&wt=json} status=0 QTime=11 
+INFO  - 2014-03-12 11:08:42.620; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394615322615&since=0&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 11:08:52.638; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394615332627&since=1394615313133&wt=json} status=0 QTime=0 
+INFO  - 2014-03-12 11:09:02.647; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394615342644&since=1394615313133&wt=json} status=0 QTime=1 
+INFO  - 2014-03-12 11:09:03.894; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:09:03.895; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:09:04.900; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=4337116
+INFO  - 2014-03-12 11:09:04.901; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@13038f0
+INFO  - 2014-03-12 11:09:04.902; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2014-03-12 11:09:04.903; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2014-03-12 11:09:04.903; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2014-03-12 11:09:04.903; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2014-03-12 11:09:04.906; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2014-03-12 11:09:04.908; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2014-03-12 11:09:04.909; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data [CachedDir<<refCount=0;path=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data;done=false>>]
+INFO  - 2014-03-12 11:09:04.909; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data
+INFO  - 2014-03-12 11:09:04.910; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index;done=false>>]
+INFO  - 2014-03-12 11:09:04.910; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/collection1/data/index
+INFO  - 2014-03-12 11:09:04.914; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:09:08.477; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 11:09:08.500; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 11:09:08.507; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 11:09:10.151; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 11:09:10.217; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 11:09:10.234; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 11:09:10.234; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 11:09:10.235; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 11:09:10.380; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 11:09:10.389; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 11:09:10.497; org.apache.solr.core.CoreContainer; New CoreContainer 22156983
+INFO  - 2014-03-12 11:09:10.497; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 11:09:10.507; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 11:09:10.507; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 11:09:10.508; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 11:09:10.508; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 11:09:10.510; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 11:09:10.510; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 11:09:10.510; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 11:09:10.511; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 11:09:10.511; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 11:09:10.645; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 11:09:10.646; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 11:09:10.648; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 11:09:10.698; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 11:09:10.698; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 11:09:10.772; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 11:09:10.875; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 11:09:10.881; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 11:09:10.888; org.apache.solr.schema.IndexSchema; [collection1] Schema name=collection1
+ERROR - 2014-03-12 11:09:10.943; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+ERROR - 2014-03-12 11:09:10.947; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 10 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+INFO  - 2014-03-12 11:09:10.949; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 11:09:10.950; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 11:09:10.993; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:09:12.741; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={_=1394615352655&since=1394615313133&wt=json} status=0 QTime=26 
+ERROR - 2014-03-12 11:09:12.778; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:827)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:317)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+ERROR - 2014-03-12 11:09:20.811; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:827)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:317)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+ERROR - 2014-03-12 11:09:22.876; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:827)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:317)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+INFO  - 2014-03-12 11:09:53.643; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:09:53.644; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:09:54.645; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=22156983
+INFO  - 2014-03-12 11:09:54.648; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:09:57.490; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 11:09:57.513; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 11:09:57.524; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 11:09:59.273; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 11:09:59.366; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 11:09:59.400; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 11:09:59.401; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 11:09:59.402; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 11:09:59.581; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 11:09:59.592; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 11:09:59.726; org.apache.solr.core.CoreContainer; New CoreContainer 5330794
+INFO  - 2014-03-12 11:09:59.727; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 11:09:59.737; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 11:09:59.737; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 11:09:59.737; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 11:09:59.738; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 11:09:59.739; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 11:09:59.740; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 11:09:59.740; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 11:09:59.740; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 11:09:59.740; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 11:09:59.875; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 11:09:59.876; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 11:09:59.877; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 11:09:59.932; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 11:09:59.932; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 11:10:00.014; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 11:10:00.116; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 11:10:00.122; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 11:10:00.129; org.apache.solr.schema.IndexSchema; [collection1] Schema name=collection1
+ERROR - 2014-03-12 11:10:00.192; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+ERROR - 2014-03-12 11:10:00.196; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 10 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+INFO  - 2014-03-12 11:10:00.198; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 11:10:00.199; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 11:10:00.244; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:10:11.125; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:10:11.126; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:10:12.128; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=5330794
+INFO  - 2014-03-12 11:10:12.132; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:10:23.463; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 11:10:23.488; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 11:10:23.497; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 11:10:25.090; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 11:10:25.161; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 11:10:25.187; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 11:10:25.187; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 11:10:25.188; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 11:10:25.327; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 11:10:25.336; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 11:10:25.463; org.apache.solr.core.CoreContainer; New CoreContainer 3087334
+INFO  - 2014-03-12 11:10:25.463; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 11:10:25.473; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 11:10:25.474; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 11:10:25.474; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 11:10:25.474; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 11:10:25.476; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 11:10:25.476; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 11:10:25.477; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 11:10:25.477; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 11:10:25.477; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 11:10:25.608; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 11:10:25.609; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 11:10:25.611; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 11:10:25.664; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 11:10:25.664; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 11:10:25.741; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 11:10:25.839; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 11:10:25.844; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 11:10:25.851; org.apache.solr.schema.IndexSchema; [collection1] Schema name=collection1
+ERROR - 2014-03-12 11:10:25.891; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+ERROR - 2014-03-12 11:10:25.895; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 10 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+INFO  - 2014-03-12 11:10:25.897; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 11:10:25.898; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 11:10:25.942; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:10:58.756; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:10:58.757; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:10:59.758; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=3087334
+INFO  - 2014-03-12 11:10:59.760; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:11:18.107; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 11:11:18.133; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 11:11:18.146; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 11:11:19.778; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 11:11:19.846; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 11:11:19.871; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 11:11:19.872; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 11:11:19.873; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 11:11:20.023; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 11:11:20.032; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 11:11:20.162; org.apache.solr.core.CoreContainer; New CoreContainer 4337116
+INFO  - 2014-03-12 11:11:20.163; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 11:11:20.173; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 11:11:20.173; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 11:11:20.173; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 11:11:20.173; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 11:11:20.175; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 11:11:20.176; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 11:11:20.176; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 11:11:20.176; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 11:11:20.176; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 11:11:20.309; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 11:11:20.310; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 11:11:20.312; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 11:11:20.363; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 11:11:20.364; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 11:11:20.443; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 11:11:20.544; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 11:11:20.550; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 11:11:20.557; org.apache.solr.schema.IndexSchema; [collection1] Schema name=collection1
+ERROR - 2014-03-12 11:11:20.605; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'ident'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: unknown field 'ident'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+ERROR - 2014-03-12 11:11:20.609; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'ident'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 10 more
+Caused by: java.lang.RuntimeException: unknown field 'ident'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+INFO  - 2014-03-12 11:11:20.611; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 11:11:20.612; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 11:11:20.662; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+ERROR - 2014-03-12 11:13:52.449; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Schema Parsing Failed: unknown field 'ident'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:827)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:317)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:217)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'ident'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: java.lang.RuntimeException: unknown field 'ident'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+INFO  - 2014-03-12 11:18:52.485; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:18:52.485; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:18:53.487; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=4337116
+INFO  - 2014-03-12 11:18:53.490; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:18:57.897; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-03-12 11:18:57.921; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts at interval 0
+INFO  - 2014-03-12 11:18:57.929; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/contexts/solr-jetty-context.xml
+INFO  - 2014-03-12 11:18:59.604; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-03-12 11:18:59.671; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-03-12 11:18:59.696; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-03-12 11:18:59.696; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-03-12 11:18:59.697; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-03-12 11:18:59.858; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml
+INFO  - 2014-03-12 11:18:59.867; org.apache.solr.core.ConfigSolr; /home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/solr/solr.xml does not exist, using default configuration
+INFO  - 2014-03-12 11:18:59.977; org.apache.solr.core.CoreContainer; New CoreContainer 7845792
+INFO  - 2014-03-12 11:18:59.978; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-03-12 11:18:59.988; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-03-12 11:18:59.988; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-03-12 11:18:59.989; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-03-12 11:18:59.989; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-03-12 11:18:59.991; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-03-12 11:18:59.991; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-03-12 11:18:59.991; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-03-12 11:18:59.991; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-03-12 11:18:59.992; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-03-12 11:19:00.125; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-03-12 11:19:00.126; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-03-12 11:19:00.127; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-03-12 11:19:00.185; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using instanceDir: solr/collection1
+INFO  - 2014-03-12 11:19:00.186; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/collection1/'
+INFO  - 2014-03-12 11:19:00.265; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: LUCENE_47
+INFO  - 2014-03-12 11:19:00.367; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-03-12 11:19:00.373; org.apache.solr.schema.IndexSchema; Reading Solr Schema from schema.xml
+INFO  - 2014-03-12 11:19:00.379; org.apache.solr.schema.IndexSchema; [collection1] Schema name=collection1
+ERROR - 2014-03-12 11:19:00.423; org.apache.solr.core.CoreContainer; Unable to create core: collection1
+org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+ERROR - 2014-03-12 11:19:00.426; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Unable to create core: collection1
+	at org.apache.solr.core.CoreContainer.recordAndThrow(CoreContainer.java:989)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:606)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:258)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:250)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Schema Parsing Failed: unknown field 'id'. Schema file is solr/collection1/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:618)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.CoreContainer.createFromLocal(CoreContainer.java:559)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:597)
+	... 10 more
+Caused by: java.lang.RuntimeException: unknown field 'id'
+	at org.apache.solr.schema.IndexSchema.getIndexedField(IndexSchema.java:340)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:536)
+	... 15 more
+
+INFO  - 2014-03-12 11:19:00.428; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if
+INFO  - 2014-03-12 11:19:00.428; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-03-12 11:19:00.475; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:20:17.561; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-03-12 11:20:17.562; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war
+INFO  - 2014-03-12 11:20:18.563; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=7845792
+INFO  - 2014-03-12 11:20:18.566; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/adeeb/Documents/university%20of%20cape%20town/hons/currrent/IR/search_engine/code/if/solr-webapp/webapp/},/home/adeeb/Documents/university of cape town/hons/currrent/IR/search_engine/code/if/webapps/solr.war

@@ -40,11 +40,13 @@ for File in files:
 	records = getrecords(File,directory)
 	if (records!=None):
 		for record in records:
-			record = getcompatible(record)
+			record = '<add>\n{}\n</add>'.format(getcompatible(record))
 			File = NamedTemporaryFile()
 			filename = File.name
 			filename = filename.replace('/tmp/','')
 			f = open('metadata/{}'.format(filename),'w')
 			f.write(record)
 			f.close()
+			break
+os.system('java -Durl=http://localhost:8983/solr/collection1/update -jar post.jar metadata/*')
 

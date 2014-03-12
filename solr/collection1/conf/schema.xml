@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<schema name="example" version="1.5">
+<schema name="collection1" version="1.5">
 	<types>
-		<field name="id" type="string"/>
+		<field name="id" type="string" indexed="true" stored="true" required="true"/>
 		<field name="description" type="string"/>
 		<field name="language" type="string"/>
 		<field name="creator" type="string" />
@@ -9,8 +9,10 @@
 		<field name="relation" type="string"/>
 		<field name="date" type="string"/>
 		<field name="identifier" type="string"/>
-		<field name="subject" type="string"/>
-
-		<uniqueKey>id</uniqueKey>
+		<field name="subject" type="string"/>		
+	</types>
+	 <uniqueKey>id</uniqueKey>
+	 <types>
+		<fieldType name="string" class="solr.StrField" sortMissingLast="true" />
 	</types>
 </schema>
