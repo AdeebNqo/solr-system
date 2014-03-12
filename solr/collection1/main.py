@@ -48,5 +48,4 @@ for File in files:
 			f.write(record)
 			f.close()
 			os.system('java -Durl=http://localhost:8983/solr/collection1/update -jar post.jar metadata/{}'.format(filename))
-			break
 
