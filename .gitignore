@@ -1,5 +1,6 @@
-*
-pyc
+*.pyc
 build/
 *~
 metadata/
+solr/collection1/data/*
+logs

@@ -8,7 +8,12 @@ def getcompatible(record):
 	recordfields = record.getchildren()
 	doc = '<doc>'
 	for field in recordfields:
-		if (field.tag.endswith('metadata')):
+		if (field.tag.endswith('header')):
+			headerfields = field.getchildren()
+			for headerfield in headerfields:
+				if (headerfield.tag.endswith('identifier')):
+					doc=doc+'\n<field name="id">{}</field>'.format(headerfield.text.split('/')[-1])
+		elif (field.tag.endswith('metadata')):
 			metafields = field.getchildren()
 			for metafield in metafields:
 				if (metafield.tag.endswith('dc')):
@@ -32,7 +37,6 @@ def getrecords(afile,directory):
 directory = sys.argv[1]
 files = os.listdir(directory)
 for File in files:
-	finalrecords = []
 	records = getrecords(File,directory)
 	if (records!=None):
 		for record in records:
