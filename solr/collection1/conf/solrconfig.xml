@@ -40,18 +40,18 @@
 	<requestHandler name="/update" class="solr.UpdateRequestHandler" />
 
 	<arr name="components">
-  <str>query</str>
-  <str>facet</str>
-  <str>mlt</str>
-  <str>highlight</str>
-  <str>stats</str>
-  <str>debug</str>
-</arr>
+	  <str>query</str>
+	  <str>facet</str>
+	  <str>mlt</str>
+	  <str>highlight</str>
+	  <str>stats</str>
+	  <str>debug</str>
+	</arr>
 
-<searchComponent name="query"     class="org.apache.solr.handler.component.QueryComponent" />
-<searchComponent name="facet"     class="org.apache.solr.handler.component.FacetComponent" />
-<searchComponent name="mlt"       class="org.apache.solr.handler.component.MoreLikeThisComponent" />
-<searchComponent name="highlight" class="org.apache.solr.handler.component.HighlightComponent" />
-<searchComponent name="stats"     class="org.apache.solr.handler.component.StatsComponent" />
-<searchComponent name="debug"     class="org.apache.solr.handler.component.DebugComponent" />
+	<searchComponent name="query"     class="org.apache.solr.handler.component.QueryComponent" />
+	<searchComponent name="facet"     class="org.apache.solr.handler.component.FacetComponent" />
+	<searchComponent name="mlt"       class="org.apache.solr.handler.component.MoreLikeThisComponent" />
+	<searchComponent name="highlight" class="org.apache.solr.handler.component.HighlightComponent" />
+	<searchComponent name="stats"     class="org.apache.solr.handler.component.StatsComponent" />
+	<searchComponent name="debug"     class="org.apache.solr.handler.component.DebugComponent" />
 </config>

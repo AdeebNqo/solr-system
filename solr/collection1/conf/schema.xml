@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <schema name="collection1" version="1.5">
-	<types>
+	<fields>
 		<field name="id" type="string" indexed="true" stored="true" required="true"/>
 		<field name="description" type="string"/>
 		<field name="language" type="string"/>
@@ -8,9 +8,9 @@
 		<field name="title" type="string"/>
 		<field name="relation" type="string"/>
 		<field name="date" type="string"/>
-		<field name="identifier" type="string"/>
-		<field name="subject" type="string"/>		
-	</types>
+		<field name="identifier" type="string" multiValued="true"/>
+		<field name="subject" type="string" multiValued="true"/>		
+	</fields>
 	 <uniqueKey>id</uniqueKey>
 	 <types>
 		<fieldType name="string" class="solr.StrField" sortMissingLast="true" />
