@@ -14,11 +14,7 @@ def getcompatible(record):
 				if (metafield.tag.endswith('dc')):
 					dcfields = metafield.getchildren()
 					for dcfield in dcfields:
-						if (dcfield.tag.split('}')[1].encode('utf-8')=='identifier' and bit==1):
-							bit = 0
-							doc=doc+'\n<field name="id">{}</field>'.format(dcfield.text.encode('utf-8'))
-						else:
-							doc=doc+'\n<field name="{0}">{1}</field>'.format(dcfield.tag.split('}')[1].encode('utf-8'), dcfield.text.encode('utf-8'))
+						doc=doc+'\n<field name="{0}">{1}</field>'.format(dcfield.tag.split('}')[1].encode('utf-8'), dcfield.text.encode('utf-8'))
 	doc = doc+'\n</doc>'
 	return doc
 #
@@ -47,5 +43,6 @@ for File in files:
 			f = open('metadata/{}'.format(filename),'w')
 			f.write(record)
 			f.close()
-os.system('java -Durl=http://localhost:8983/solr/collection1/update -jar post.jar metadata/*')
+			os.system('java -Durl=http://localhost:8983/solr/collection1/update -jar post.jar metadata/{}'.format(filename))
+			break
 

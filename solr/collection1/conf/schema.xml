@@ -6,10 +6,17 @@
 		<field name="language" type="string"/>
 		<field name="creator" type="string" />
 		<field name="title" type="string"/>
-		<field name="relation" type="string"/>
+		<field name="relation" type="string" multiValued="true"/>
 		<field name="date" type="string"/>
 		<field name="identifier" type="string" multiValued="true"/>
-		<field name="subject" type="string" multiValued="true"/>		
+		<field name="subject" type="string" multiValued="true"/>
+		<field name="publisher" type="string" />
+		<field name="contributor" type="string" />
+		<field name="coverage" type="string" />	
+		<field name="rights" type="string" />
+		<field name="source" type="string" />
+		<field name="format" type="string" />
+		
 	</fields>
 	 <uniqueKey>id</uniqueKey>
 	 <types>

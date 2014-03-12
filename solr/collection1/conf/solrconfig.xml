@@ -37,6 +37,7 @@
      autowarmCount="0"/>
 
 
+	<requestHandler name="/select" class="solr.UpdateRequestHandler" />
 	<requestHandler name="/update" class="solr.UpdateRequestHandler" />
 
 	<arr name="components">
