@@ -3,4 +3,4 @@ build/
 *~
 metadata/
 solr/collection1/data/
-logs
+logs/
