@@ -15,11 +15,11 @@
 # limitations under the License.
 
 FILES=$*
-URL=http://localhost/8983/solr/collection1/update
+URL=http://localhost:8983/solr/collection1/update?commit=true
 
 for f in $FILES; do
   echo Posting file $f to $URL
-  curl $URL --data-binary @$f -H 'Content-type:application/xml' 
+  curl $URL --data-binary @$f -H 'Content-type:text/xml'
   echo
 done
 

@@ -47,5 +47,6 @@ for File in files:
 			f = open('metadata/{}'.format(filename),'w')
 			f.write(record)
 			f.close()
-			os.system('java -Durl=http://localhost:8983/solr/collection1/update -jar post.jar metadata/{}'.format(filename))
+			#java -Durl=http://localhost:8983/solr/collection1/update -jar post.jar
+			os.system('./post.sh metadata/{}'.format(filename))
 
