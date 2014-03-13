@@ -3,11 +3,11 @@
 	<fields>
 		<field name="id" type="string" indexed="true" stored="true" required="true"/>
 		<field name="description" type="string"/>
-		<field name="language" type="string"/>
+		<field name="language" type="string" multiValued="true"/>
 		<field name="creator" type="string" />
 		<field name="title" type="string"/>
 		<field name="relation" type="string" multiValued="true"/>
-		<field name="date" type="string"/>
+		<field name="date" type="string" multiValued="true"/>
 		<field name="identifier" type="string" multiValued="true"/>
 		<field name="subject" type="string" multiValued="true"/>
 		<field name="publisher" type="string" />

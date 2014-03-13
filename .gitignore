@@ -2,5 +2,5 @@
 build/
 *~
 metadata/
-solr/collection1/data/*
+solr/collection1/data/
 logs
