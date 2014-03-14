@@ -21,7 +21,7 @@ def getcompatible(record):
 					for dcfield in dcfields:
 						doc=doc+'\n<field name="{0}">{1}</field>'.format(dcfield.tag.split('}')[1].encode('utf-8'), dcfield.text.encode('utf-8'))
 	doc = doc+'\n</doc>'
-	return doc
+	return doc.encode('utf-8')
 #
 # Method for getting all records from one file
 #
