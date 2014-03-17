@@ -1,0 +1,8 @@
+{
+	"name":"hons/solr-system",
+	"description":"solr hons project",
+	"license":"proprietary",
+	"require":{
+		"solarium/solarium":"2.4.0"
+	}
+}
