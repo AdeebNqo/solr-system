@@ -41,13 +41,20 @@
 		     <lst name="defaults">
 		       <str name="echoParams">explicit</str>
 		       <int name="rows">10</int>
-		       <str name="df">text</str>
+			<str name="df">id</str>
 		     </lst>
 
 		
 	</requestHandler>
 	<requestHandler name="/update" class="solr.UpdateRequestHandler" />
-
+	
+	<requestHandler name="/admin/ping" class="solr.PingRequestHandler">
+		<lst name="invariants">
+		<str name="qt">/select</str><!-- handler to delegate to -->
+		<str name="q">id=test</str>
+		</lst>
+	</requestHandler> 
+	
 	<arr name="components">
 	  <str>query</str>
 	  <str>facet</str>
