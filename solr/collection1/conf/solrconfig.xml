@@ -41,11 +41,10 @@
 		     <lst name="defaults">
 		       <str name="echoParams">explicit</str>
 		       <int name="rows">10</int>
-			<str name="df">id</str>
+			<str name="df">description</str>
 		     </lst>
-
-		
 	</requestHandler>
+
 	<requestHandler name="/update" class="solr.UpdateRequestHandler" />
 	
 	<requestHandler name="/admin/ping" class="solr.PingRequestHandler">

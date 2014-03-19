@@ -38,15 +38,20 @@ directory = sys.argv[1]
 files = os.listdir(directory)
 for File in files:
 	records = getrecords(File,directory)
+	numErr=0
 	if (records!=None):
 		for record in records:
-			record = '<add>\n{}\n</add>'.format(getcompatible(record))
-			File = NamedTemporaryFile()
-			filename = File.name
-			filename = filename.replace('/tmp/','')
-			f = open('metadata/{}'.format(filename),'w')
-			f.write(record)
-			f.close()
-			#java -Durl=http://localhost:8983/solr/collection1/update -jar post.jar
-			os.system('./post.sh metadata/{}'.format(filename))
+			try:
+				record = '<add>\n{}\n</add>'.format(getcompatible(record))
+				File = NamedTemporaryFile()
+				filename = File.name
+				filename = filename.replace('/tmp/','')
+				f = open('metadata/{}'.format(filename),'w')
+				f.write(record)
+				f.close()
+				#java -Durl=http://localhost:8983/solr/collection1/update -jar post.jar
+				os.system('./post.sh metadata/{}'.format(filename))
+			except UnicodeDecodeError:
+				numErr=numErr+1
+	print("there've been {} errors".format(numErr))
 
