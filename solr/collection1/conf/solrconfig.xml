@@ -55,6 +55,7 @@
 		</lst>
 	</requestHandler> 
 	
+
 	<arr name="components">
 	  <str>query</str>
 	  <str>facet</str>

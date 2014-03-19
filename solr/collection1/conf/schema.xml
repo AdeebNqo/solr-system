@@ -2,7 +2,7 @@
 <schema name="collection1" version="1.5">
 	<fields>
 		<field name="id" type="string" indexed="true" stored="true" required="true"/>
-		<field name="description" type="string"/>
+		<field name="description" type="string" stored="true"/>
 		<field name="language" type="string" multiValued="true"/>
 		<field name="creator" type="string" />
 		<field name="title" type="string"/>
@@ -18,7 +18,7 @@
 		<field name="format" type="string" />
 		
 	</fields>
-	 <uniqueKey>id</uniqueKey>
+	 <uniqueKey stored="true">id</uniqueKey>
 	 <types>
 		<fieldType name="string" class="solr.StrField" sortMissingLast="true" />
 	</types>
